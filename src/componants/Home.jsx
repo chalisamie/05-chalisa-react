@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "/Users/chalisamie/Desktop/JSD8/React/accessment/src/componants/Navbar.jsx";
-import Header from "/Users/chalisamie/Desktop/JSD8/React/accessment/src/componants/Header.jsx";
-import UserForm from "/Users/chalisamie/Desktop/JSD8/React/accessment/src/componants/UserForm.jsx";
-import UserList from "/Users/chalisamie/Desktop/JSD8/React/accessment/src/componants/UserList.jsx";
+import Navbar from "./Navbar";
+import Header from "./Header";
+import UserForm from "./UserForm";
+import UserList from "./UserList";
 
 function Home() {
   const [users, setUsers] = useState([]);
@@ -18,7 +18,7 @@ function Home() {
   };
 
   return (
-    <div className="h-screen w-[2000px] flex-col justify-center items-center bg-white flex flex-col">
+    <div className="h-screen w-[2000px]  justify-center items-center bg-white flex flex-col">
       <Navbar />
       <Header />
       <div className="flex flex-grow justify-center items-center w-full p-4">
